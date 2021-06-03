@@ -1,6 +1,8 @@
 # Snake-2D(OOPs)
 Tech Stack: HTML, CSS, JS
 
+![alt text](https://github.com/shardul1999/Snake-2D//gp1.png?raw=true)
+
 Everything is done on the canvas area of the document. 
 
 To create a rectangle: 
@@ -32,7 +34,7 @@ food is randomly generated.
 Length of snake increases as soon as head of the snake reaches the food.(The end of snake is not popped when head.x==food.x && head.y==food.y)
 We can keep a global variable "score" for calculationg the amount of food eaten by snake. score+=1 when  headx==food.x && heady==food.y.
 
-Important Points:
-<ul><li>food doesn't generate on the snake itself.</li>
-  <li>Game is over as soon as the snake touches any end of the canvas.</li>
+Make Sure: -
+<ul><li>Food doesn't generate on the snake itself.</li>
+  <li>Game is over as soon as the snake touches any end of the canvas.(e.g clearInterval(f))</li>
 </ul>
