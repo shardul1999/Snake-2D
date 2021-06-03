@@ -109,7 +109,7 @@ function init()
 			snake.direction="right";
 			prev_direction="right";
 		}
-		else
+		else if(e.key=="ArrowUp")
 		{
 			if(prev_direction=="down")
 				clearInterval(f);
