@@ -24,3 +24,15 @@ addEventListener to used to apply action on the document.
 <ul><li>document.addEventListener('click',function);  'keydown' can also be used instead of 'click'. It would react to any key pressed on the keyboard.
 </li></ul>
 e.g function f(e){ console.log("ajjoo the key pressed is ",e.key); }
+
+Whenever a key is pressed, the head of snake is added in a direction accordingly.
+e.g if(e.key == "ArrowLeft") headx-=1;
+
+food is randomly generated.
+Length of snake increases as soon as head of the snake reaches the food.(The end of snake is not popped when head.x==food.x && head.y==food.y)
+We can keep a global variable "score" for calculationg the amount of food eaten by snake. score+=1 when  headx==food.x && heady==food.y.
+
+Important Points:
+<ul><li>food doesn't generate on the snake itself.</li>
+  <li>Game is over as soon as the snake touches any end of the canvas.</li>
+</ul>
