@@ -1,12 +1,13 @@
 # Snake-2D(OOPs)
 Tech Stack: HTML, CSS, JS
+<p align="center">
+<img src="gp2.png" width="800">
+</p>
 
-![alt text](https://github.com/shardul1999/Snake-2D/blob/main/gp2.png)
-
+<p align="center">
+<img src="gp1.png" width="800">
+</p>
 <br>
-
-![alt text](https://github.com/shardul1999/Snake-2D/blob/main/gp1.png)
-
 Everything is done on the canvas area of the document. 
 
 To create a rectangle: 
