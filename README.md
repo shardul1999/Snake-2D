@@ -1,7 +1,11 @@
 # Snake-2D(OOPs)
 Tech Stack: HTML, CSS, JS
 
-![alt text](https://github.com/shardul1999/Snake-2D//gp1.png?raw=true)
+![alt text](https://github.com/shardul1999/Snake-2D/blob/main/gp2.png)
+
+<br>
+
+![alt text](https://github.com/shardul1999/Snake-2D/blob/main/gp1.png)
 
 Everything is done on the canvas area of the document. 
 
